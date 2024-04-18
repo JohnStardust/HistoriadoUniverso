@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.muito{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.922);
+    margin: 0;
+    padding: 0;
+
+}
+
+.cabeçalho {
+    height: 50vh;
+    width: 100%;
+    color: white;
+    background-image: url(perfero.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+
+}
+
+.título {
+    margin-top: 0px;
+    font-size: 80px;
+}
+
+nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.navegação a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px;
+}
+
+.navegação a:hover {
+    background-color: #6f1897;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+
+/* background repeat no repeat */
+
+main
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 35%;
+}
+ .teste {
+    font-size: 100px;
+    color: aliceblue;
+ }
+
+ .começo {
+    color: white;
+    width: 400px;
+    background-color: #2f00ff5b;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+ }
