@@ -30,7 +30,7 @@ body {
 
 .título {
     margin-top: 0px;
-    font-size: 80px;
+    font-size: 70wpx;
 }
 
 nav {
@@ -39,6 +39,7 @@ nav {
     justify-content: space-between;
     padding-top: 20px;
     padding-right: 50px;
+    font-family: Arial, sans-serif;
 }
 
 .navegação a {
@@ -55,25 +56,38 @@ nav {
 
 
 /* background repeat no repeat */
-
-main
+.BIGBANG
 {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     bottom: 35%;
+    line-height: 120px;
 }
- .teste {
+ .bigbang {
     font-size: 100px;
     color: aliceblue;
  }
 
- .começo {
+ .começo, .primitivo{
     color: white;
-    width: 400px;
+    width: 600px;
+    background-color: #2f00ff5b;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+ }
+
+ aside {
+    color: white;
+    width: 600px;
     background-color: #2f00ff5b;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
  }
+
+ .teste {
+    display: flex;
+ }
+
+ 
