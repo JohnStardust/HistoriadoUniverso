@@ -18,7 +18,7 @@
   }
   
   body{
-    background-color: var(--black);
+    background-color: rgba(0, 0, 0, 0.907);
   }
 
   body, button, a {
@@ -55,14 +55,15 @@
     color: aliceblue;
  }
 
- .começo, .primitivo{
+ .começo, .primitivo, .estrela{
     color: white;
     width: 600px;
-    background-color: #2f00ff5b;
+    background-color: #480079;
     border-radius: 10px;
     margin: auto;
     padding: 10px;
     display: flex;
+    margin-bottom: 20px;
  }
 
  aside {
@@ -74,6 +75,15 @@
     padding: 10px;
  }
 
- .lado {
-    display: flex;
+ .começo {
+  margin-top: 100px;
  }
+
+ p {
+  padding: 6px;
+ }
+
+
+
+
+ 
