@@ -18,12 +18,13 @@ header{
     background-position-y: -300px;
 }
 
-h1{
+.titulozao{
     position: absolute;
     bottom: 42%;
     line-height: 120px;
     left: 750px;
     font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header img{/*configurando o logo*/
