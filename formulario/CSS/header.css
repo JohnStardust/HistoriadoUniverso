@@ -22,7 +22,8 @@ header{
     position: absolute;
     bottom: 42%;
     line-height: 120px;
-    left: 750px;
+    left: 50%;
+    margin-left: -250px;
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
